@@ -1,0 +1,36 @@
+﻿#define
+    test
+    #ifdef
+        testInner
+    #endif
+#enddef
+{test}
+{
+    test
+}
+#im a comment
+
+[unit_type]
+    id,altid=#textdomain myDomain HoW_Cleric
+    name= _"Cleric"
+    race=aasimar
+    image="units/heroes_of_westcrown/how_cleric.png"
+    ellipse="misc/ellipse"
+    [+innerElement]
+        id=12
+    [/innerElement]
+    hitpoints=36
+    movement_type=smallfoot
+    movement=4
+    experience=35
+    level=1
+    alignment=chaotic
+    advances_to=null
+    cost= 16
+    usage=healer
+    description= #textdomain myDomain _ "A cleric of Selket, skilled in healing"+
+        #textdomain subDomain " continued text."
+    test1= << what is the mery
+    test of strength >>
+    test3= _<<strong translation>>
+[/unit_type]
