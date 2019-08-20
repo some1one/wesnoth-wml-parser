@@ -1,1 +1,3 @@
 .antlr
+antlr*.jar
+bin
